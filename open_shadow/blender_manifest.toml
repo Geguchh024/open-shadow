@@ -1,0 +1,17 @@
+schema_version = "1.0.0"
+
+id = "open_shadow"
+version = "0.1.0"
+name = "Open Shadow"
+tagline = "Procedural gobo lights: windows, leaves, lattices and more"
+maintainer = "Open Shadow contributors"
+type = "add-on"
+
+tags = ["Lighting", "Render"]
+
+blender_version_min = "4.5.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+[build]
+paths_exclude_pattern = ["__pycache__/", "*.pyc"]
