@@ -12,6 +12,13 @@ a spider web and more onto your scene with one click.
 - Use **your own image** as a gobo too.
 - Files keep rendering without the add-on installed.
 
+![A living room at golden hour, lit through a window with leaves](docs/images/showcase/sunroom.png)
+
+| | |
+| --- | --- |
+| ![Stained rose window](docs/images/showcase/cathedral.png) | ![Blinds on a bust](docs/images/showcase/noir.png) |
+| ![Palm on terracotta](docs/images/showcase/palm.png) | ![Moroccan screen](docs/images/showcase/moroccan.png) |
+
 ![Shadow previews](docs/images/previews.png)
 
 ![Open Shadow in the viewport](docs/images/screenshot.png)

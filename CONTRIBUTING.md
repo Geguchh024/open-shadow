@@ -17,6 +17,7 @@ open_shadow/               the add-on (this folder is what gets zipped)
   thumbs.py, thumbs/       preset gallery thumbnails
 tools/render_thumbnails.py renders open_shadow/thumbs
 tools/render_previews.py   renders the shadow previews in docs/images
+tools/render_showcase.py   renders the artwork scenes in docs/images/showcase
 tests/run_tests.py         headless test suite
 ```
 
@@ -51,6 +52,7 @@ Please run them before opening a pull request.
 ```
 blender -b --factory-startup --python tools/render_thumbnails.py [-- PRESET_ID ...]
 blender -b --factory-startup --python tools/render_previews.py [-- [--eevee] PRESET_ID ...]
+blender -b --factory-startup --python tools/render_showcase.py [-- SCENE ... --samples N --scale F --plain]
 ```
 
 Every preset needs a thumbnail; the tests check this.
